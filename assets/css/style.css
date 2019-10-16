@@ -1,3 +1,7 @@
+body{
+  overflow-x: hidden !important;
+}
+
 /* line 25*/
 .boxed-btn:hover {
   background: #78b454;
@@ -690,3 +694,48 @@ nav a{
 #sideNav{
   transition: all 0.3s ease 0s
 }
+.section-margin{
+  margin-top: 30px;
+}
+.food-card{
+  background:#fff8f7;
+  padding:20px 10px 20px 10px;
+  margin-bottom:20px;
+  -webkit-transition:all 0.3s ease 0s;
+  -moz-transition:all 0.3s ease 0s;
+  -o-transition:all 0.3s ease 0s;
+  transition:all 0.3s ease 0s}
+  @media (min-width: 600px){
+    .food-card{
+      padding:30px 40px 30px 40px
+    }}
+    .food-card p{
+      margin:0
+    }
+    .food-card .price-tag{
+      font-size:20px}
+      .food-card-title
+      {position:relative;
+    margin-bottom:5px
+  }.food-card-title>*{margin:0}.food-card-title::after{content:"";
+    display:block;
+    position:absolute;
+    left:0;
+    top:40%;
+    width:100%;
+    height:1px;
+    background-color:#363636}.food-card-title h4{background:#fff8f7;
+    z-index:1;
+    padding-right:10px;
+    -webkit-transition:all 0.3s ease 0s;
+    -moz-transition:all 0.3s ease 0s;
+    -o-transition:all 0.3s ease 0s;
+    transition:all 0.3s ease 0s}.food-card-title h3{background:#fff8f7;
+    z-index:1;
+    padding-left:10px;
+    -webkit-transition:all 0.3s ease 0s;
+    -moz-transition:all 0.3s ease 0s;
+    -o-transition:all 0.3s ease 0s;
+    transition:all 0.3s ease 0s}.food-card-title .price-tag{z-index:1}.food-card:hover{background:#fff;
+    box-shadow:0px 10px 20px 0px rgba(8,6,89,0.1)}
+.food-card:hover .food-card-title h3,.food-card:hover .food-card-title h4{background:#fff}
