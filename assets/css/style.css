@@ -1,0 +1,692 @@
+/* line 25*/
+.boxed-btn:hover {
+  background: #78b454;
+  color: #fff !important;
+}
+
+/* line 32*/
+.boxed_btn_white {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  display: inline-block;
+  padding: 16px 29px;
+  border: 2px solid #fff;
+  text-transform: capitalize;
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  /* line 32*/
+  .boxed_btn_white {
+    padding: 13px 13px;
+  }
+}
+nav a{
+  text-decoration: none;
+}
+
+/* line 43*/
+.boxed_btn_white:hover {
+  background: #fff;
+  color: #000;
+}
+
+/* line 49*/
+.load_more_btn {
+  background: #78b454;
+  color: #fff;
+  text-align: center;
+  padding: 16px 41px;
+  display: inline-block;
+  border: 2px solid transparent;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+/* line 58*/
+.load_more_btn:hover {
+  color: #78b454 !important;
+  border: 2px solid #78b454;
+  background: #fff;
+}
+
+/* line 2, ../../Arafath/CL/CL August/199 Flatter Catering/199 Flatter Catering-HTML/scss/_section_title.scss */
+.section_title h3 {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 60px;
+  color: #000000;
+  margin-bottom: 18px;
+}
+
+@media (max-width: 767px) {
+  /* line 2, ../../Arafath/CL/CL August/199 Flatter Catering/199 Flatter Catering-HTML/scss/_section_title.scss */
+  .section_title h3 {
+    font-size: 38px;
+    line-height: 46px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 2, ../../Arafath/CL/CL August/199 Flatter Catering/199 Flatter Catering-HTML/scss/_section_title.scss */
+  .section_title h3 {
+    font-size: 48px;
+    line-height: 56px;
+  }
+}
+
+/* line 17, ../../Arafath/CL/CL August/199 Flatter Catering/199 Flatter Catering-HTML/scss/_section_title.scss */
+.section_title p {
+  font-weight: 300;
+  color: #777777;
+  margin-bottom: 0;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 21, ../../Arafath/CL/CL August/199 Flatter Catering/199 Flatter Catering-HTML/scss/_section_title.scss */
+  .section_title p br {
+    display: none;
+  }
+}
+
+/* line 28, ../../Arafath/CL/CL August/199 Flatter Catering/199 Flatter Catering-HTML/scss/_section_title.scss */
+.section_title.white h3, .section_title.white p {
+  color: #fff;
+}
+
+/* line 34, ../../Arafath/CL/CL August/199 Flatter Catering/199 Flatter Catering-HTML/scss/_section_title.scss */
+.section-padding {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+@media (max-width: 767px) {
+  /* line 34, ../../Arafath/CL/CL August/199 Flatter Catering/199 Flatter Catering-HTML/scss/_section_title.scss */
+  .section-padding {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 34, ../../Arafath/CL/CL August/199 Flatter Catering/199 Flatter Catering-HTML/scss/_section_title.scss */
+  .section-padding {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+
+/* line 48, ../../Arafath/CL/CL August/199 Flatter Catering/199 Flatter Catering-HTML/scss/_section_title.scss */
+.zigzag_bg_1::before {
+  background-image: url(../img/zigzag.svg);
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -1px;
+  width: 100%;
+  height: 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+/* line 63, ../../Arafath/CL/CL August/199 Flatter Catering/199 Flatter Catering-HTML/scss/_section_title.scss */
+.zigzag_bg_2::after {
+  background-image: url(../img/zigzag.svg);
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 100%;
+  height: 20px;
+  background-size: cover;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+@media (max-width: 767px) {
+  /* line 4, ../../Arafath/CL/CL August/199 Flatter Catering/199 Flatter Catering-HTML/scss/_slick-nav.scss */
+  .mobile_menu {
+    position: absolute;
+    right: 0px;
+    width: 100%;
+    z-index: 9;
+  }
+}
+
+/* line 13, ../../Arafath/CL/CL August/199 Flatter Catering/199 Flatter Catering-HTML/scss/_slick-nav.scss */
+.slicknav_menu .slicknav_nav {
+  background: #fff;
+  float: right;
+  margin-top: 0;
+  padding: 0;
+  width: 95%;
+  padding: 0;
+  border-radius: 0px;
+  margin-top: 5px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 45px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 13, ../../Arafath/CL/CL August/199 Flatter Catering/199 Flatter Catering-HTML/scss/_slick-nav.scss */
+  .slicknav_menu .slicknav_nav {
+    padding: 10px;
+  }
+}
+
+/* line 31, ../../Arafath/CL/CL August/199 Flatter Catering/199 Flatter Catering-HTML/scss/_slick-nav.scss */
+.slicknav_menu .slicknav_nav a:hover {
+  background: transparent;
+  color: #78b454;
+}
+
+/* line 35, ../../Arafath/CL/CL August/199 Flatter Catering/199 Flatter Catering-HTML/scss/_slick-nav.scss */
+.slicknav_menu .slicknav_nav a.active {
+  color: #78b454;
+}
+
+@media (max-width: 767px) {
+  /* line 38, ../../Arafath/CL/CL August/199 Flatter Catering/199 Flatter Catering-HTML/scss/_slick-nav.scss */
+  .slicknav_menu .slicknav_nav a i {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 38, ../../Arafath/CL/CL August/199 Flatter Catering/199 Flatter Catering-HTML/scss/_slick-nav.scss */
+  .slicknav_menu .slicknav_nav a i {
+    display: none;
+  }
+}
+
+/* line 47, ../../Arafath/CL/CL August/199 Flatter Catering/199 Flatter Catering-HTML/scss/_slick-nav.scss */
+.slicknav_menu .slicknav_nav .slicknav_btn {
+  background-color: transparent;
+  cursor: pointer;
+  margin-bottom: 10px;
+  margin-top: -40px;
+  position: relative;
+  z-index: 99;
+  border: 1px solid #ddd;
+  top: 3px;
+  right: 5px;
+}
+
+/* line 58, ../../Arafath/CL/CL August/199 Flatter Catering/199 Flatter Catering-HTML/scss/_slick-nav.scss */
+.slicknav_menu .slicknav_nav .slicknav_btn .slicknav_icon {
+  margin-right: 6px;
+  margin-top: 3px;
+  position: relative;
+  padding-bottom: 3px;
+  top: -11px;
+  right: -5px;
+}
+
+@media (max-width: 767px) {
+  /* line 12, ../../Arafath/CL/CL August/199 Flatter Catering/199 Flatter Catering-HTML/scss/_slick-nav.scss */
+  .slicknav_menu {
+    margin-right: 12px;
+  }
+}
+
+/* line 75, ../../Arafath/CL/CL August/199 Flatter Catering/199 Flatter Catering-HTML/scss/_slick-nav.scss */
+.home-6 .slicknav_menu .slicknav_icon {
+  margin-right: 6px;
+  margin-top: 3px;
+  right: -5px;
+  padding-bottom: 3px;
+  position: absolute;
+  top: 3px;
+}
+
+/* line 87, ../../Arafath/CL/CL August/199 Flatter Catering/199 Flatter Catering-HTML/scss/_slick-nav.scss */
+.slicknav_nav .slicknav_arrow {
+  float: right;
+  font-size: 22px;
+  position: relative;
+  top: -9px;
+}
+
+/* line 3*/
+.header-area .mein_menu_list {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+  -ms-justify-content: space-between;
+  justify-content: space-between;
+  -ms-flex-pack: space-between;
+}
+
+/* line 9*/
+.header-area .logo-img-small {
+  position: absolute;
+  top: 0;
+  left: 25px;
+  z-index: 99999;
+}
+
+/* line 14*/
+.header-area .logo-img-small img {
+  width: 60px;
+}
+
+@media (max-width: 767px) {
+  /* line 18*/
+  .header-area .main-header-area {
+    padding: 10px 0;
+    height: 60px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 18*/
+  .header-area .main-header-area {
+    padding: 10px 0;
+    height: 60px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 27*/
+  .header-area .main-header-area .logo-img {
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    margin: 3px auto;
+    z-index: 999;
+    width: 140px;
+    left: 0;
+    right: 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 39*/
+  .header-area .main-header-area .logo-img {
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    margin: 3px auto;
+    z-index: 999;
+    width: 140px;
+    left: 0;
+    right: 0;
+  }
+}
+
+/* line 53*/
+.header-area .main-header-area .main-menu ul li {
+  display: inline-block;
+  position: relative;
+}
+
+/* line 56*/
+.header-area .main-header-area .main-menu ul li a {
+  color: #fff;
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: 400;
+  display: inline-block;
+  padding: 35px 10px 35px 10px;
+  font-family: "Josefin Sans", sans-serif;
+  position: relative;
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  /* line 56*/
+  .header-area .main-header-area .main-menu ul li a {
+    padding: 35px 8px 35px 8px;
+  }
+}
+
+/* line 68*/
+.header-area .main-header-area .main-menu ul li a i {
+  font-size: 9px;
+}
+
+@media (max-width: 767px) {
+  /* line 68*/
+  .header-area .main-header-area .main-menu ul li a i {
+    display: none !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 68*/
+  .header-area .main-header-area .main-menu ul li a i {
+    display: none !important;
+  }
+}
+
+/* line 77*/
+.header-area .main-header-area .main-menu ul li a::before {
+  position: absolute;
+  content: "";
+  background: #78b454;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  transform: scaleX(0);
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+/* line 89*/
+.header-area .main-header-area .main-menu ul li a:hover::before {
+  opacity: 1;
+  transform: scaleX(1);
+}
+
+/* line 94*/
+.header-area .main-header-area .main-menu ul li a.active::before {
+  opacity: 1;
+  transform: scaleX(1);
+}
+
+/* line 100*/
+.header-area .main-header-area .main-menu ul li .submenu {
+  position: absolute;
+  left: 0;
+  top: 140%;
+  background: #fff;
+  width: 200px;
+  z-index: 2;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.02);
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: 0.6s;
+  -moz-transition: 0.6s;
+  -o-transition: 0.6s;
+  transition: 0.6s;
+}
+.hamburger{
+  width: 10%;
+  margin-right: 50%;
+}
+.icons{
+  width: 90%;
+  height: 5px;
+  border: 1px solid black;
+  margin-bottom: 1px;
+  cursor: cell;
+}
+/* line 111*/
+.header-area .main-header-area .main-menu ul li .submenu li {
+  display: block;
+}
+
+/* line 113*/
+.header-area .main-header-area .main-menu ul li .submenu li a {
+  padding: 10px 15px;
+  position: inherit;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  display: block;
+  color: #000;
+}
+
+/* line 119*/
+.header-area .main-header-area .main-menu ul li .submenu li a::before {
+  display: none;
+}
+
+/* line 123*/
+.header-area .main-header-area .main-menu ul li .submenu li:hover a {
+  color: #78b454;
+}
+
+/* line 128*/
+.header-area .main-header-area .main-menu ul li:hover > .submenu {
+  opacity: 1;
+  visibility: visible;
+  top: 100%;
+}
+
+/* line 133*/
+.header-area .main-header-area .main-menu ul li:hover > a::before {
+  opacity: 1;
+  transform: scaleX(1);
+}
+
+/* line 140*/
+.header-area .main-header-area .slicknav_icon-bar {
+  background: #fff !important;
+}
+
+/* line 143*/
+.header-area .main-header-area.sticky {
+  box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  width: 100%;
+  top: -70px;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  transform: translateY(70px);
+  transition: transform 500ms ease, background 500ms ease;
+  -webkit-transition: transform 500ms ease, background 500ms ease;
+  box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
+  background: #fff;
+}
+
+/* line 156*/
+.header-area .main-header-area.sticky .slicknav_icon-bar {
+  background: #000 !important;
+}
+
+/* line 159*/
+.header-area .main-header-area.sticky .boxed_btn_white {
+  color: #000;
+  font-size: 15px;
+  font-weight: 600;
+  display: inline-block;
+  padding: 16px 29px;
+  border: 2px solid #000;
+  text-transform: capitalize;
+}
+
+/* line 167*/
+.header-area .main-header-area.sticky .boxed_btn_white:hover {
+  background: #000;
+  color: #fff;
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  /* line 159*/
+  .header-area .main-header-area.sticky .boxed_btn_white {
+    padding: 13px 13px;
+  }
+}
+
+/* line 176*/
+.header-area .main-header-area.sticky .logo-img {
+  display: inline-block;
+}
+
+/* line 178*/
+.header-area .main-header-area.sticky .logo-img img {
+  width: 80px;
+}
+
+/* line 184*/
+.header-area .main-header-area.sticky .main-menu ul li {
+  display: inline-block;
+  position: relative;
+}
+
+/* line 187*/
+.header-area .main-header-area.sticky .main-menu ul li a {
+  color: #000;
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: 400;
+  display: inline-block;
+  padding: 35px 10px 35px 10px;
+  font-family: "Josefin Sans", sans-serif;
+  position: relative;
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  /* line 187*/
+  .header-area .main-header-area.sticky .main-menu ul li a {
+    padding: 35px 8px 35px 8px;
+  }
+}
+
+/* line 199*/
+.header-area .main-header-area.sticky .main-menu ul li a i {
+  font-size: 9px;
+}
+
+@media (max-width: 767px) {
+  /* line 199*/
+  .header-area .main-header-area.sticky .main-menu ul li a i {
+    display: none !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 199*/
+  .header-area .main-header-area.sticky .main-menu ul li a i {
+    display: none !important;
+  }
+}
+
+/* line 208*/
+.header-area .main-header-area.sticky .main-menu ul li a::before {
+  position: absolute;
+  content: "";
+  background: #78b454;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  transform: scaleX(0);
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+/* line 220*/
+.header-area .main-header-area.sticky .main-menu ul li a:hover::before {
+  opacity: 1;
+  transform: scaleX(1);
+}
+
+/* line 225*/
+.header-area .main-header-area.sticky .main-menu ul li a.active::before {
+  opacity: 1;
+  transform: scaleX(1);
+}
+
+/* line 231*/
+.header-area .main-header-area.sticky .main-menu ul li .submenu {
+  position: absolute;
+  left: 0;
+  top: 140%;
+  background: #fff;
+  width: 200px;
+  z-index: 2;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.02);
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: 0.6s;
+  -moz-transition: 0.6s;
+  -o-transition: 0.6s;
+  transition: 0.6s;
+}
+
+/* line 242*/
+.header-area .main-header-area.sticky .main-menu ul li .submenu li {
+  display: block;
+}
+
+/* line 244*/
+.header-area .main-header-area.sticky .main-menu ul li .submenu li a {
+  padding: 10px 15px;
+  position: inherit;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  display: block;
+  color: #000;
+}
+
+/* line 250*/
+.header-area .main-header-area.sticky .main-menu ul li .submenu li a::before {
+  display: none;
+}
+
+/* line 254*/
+.header-area .main-header-area.sticky .main-menu ul li .submenu li:hover a {
+  color: #78b454;
+}
+
+/* line 259*/
+.header-area .main-header-area.sticky .main-menu ul li:hover > .submenu {
+  opacity: 1;
+  visibility: visible;
+  top: 100%;
+}
+
+/* line 264*/
+.header-area .main-header-area.sticky .main-menu ul li:hover > a::before {
+  opacity: 1;
+  transform: scaleX(1);
+}
+
+/* line 274*/
+.logo-img {
+  display: inline-block;
+}
+
+/* line 277*/
+.header-area {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+}
+
+#sideNav{
+  display: none;
+}
+#sideNav{
+  text-decoration: none;
+  transition: 0.5s;
+}
+.sidenav{
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.466);
+  margin-bottom: 10px;
+  text-align: center !important;
+}
+#sideNav{
+  transition: all 0.3s ease 0s
+}

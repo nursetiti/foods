@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="./assets/fontawesome-free/css/all.min.css">
+        <style>
+            li , a{
+                display:inline;
+                text-decoration: none;
+                color: white;
+            }
+           .lgNav{
+                background-color: red;
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+            body{
+                margin: 0;
+            }
+            @media screen and (max-width:900px){
+                .lgNav{
+                    display: none;
+                }
+            }
+            @media screen and (min-width:901px){
+                .navSm{
+                    display: none;
+                }
+            }
+            .sideNav{
+                display: none;
+                background-color: black;
+                color: white
+            }
+            .navSm{
+                background-color: black;
+            }
+            .fa{
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="lgNav">
+             <ul class="navLg">
+                 <li><a href="">Home</a></li>
+                 <li><a href="">About</a></li>
+                 <li><a href="">Contact</a></li>
+                 <li><a href="">Join</a></li>
+             </ul>
+             </nav>
+             <nav class="navSm">
+                 <i class="fa fa-bars" id="menu" aria-hidden="true"></i>
+                 <div class="sideNav" id="sideNav">
+                 <ul>
+                    <i class="fa fa-window-close" id="close" aria-hidden="true"></i>
+                 <li><a href="">Home</a></li>
+                 <li><a href="">About</a></li>
+                 <li><a href="">Contact</a></li>
+                 <li><a href="">Join</a></li>
+             </ul>
+             </div>
+            </nav>
+    </body>
+    <script>
+      const sideNav  = document.getElementById('sideNav')
+      const closeNav = document.getElementById('close')
+      const openNav = document.getElementById('menu')
+       openNav.addEventListener("click" , function(e){
+           if(e.type === "click"){
+            sideNav.style.display = "block"
+           }else{
+               sideNav.style.display = "none"
+           }
+       });
+       closeNav.addEventListener("click" , function(e){
+        if(e.type === "click"){
+            sideNav.style.display =  "none";
+        }
+        else{
+            sideNav.style.display = "none";
+        }
+       });
+    </script>
+</html>
